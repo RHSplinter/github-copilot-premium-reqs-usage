@@ -11,6 +11,8 @@ export const CURRENT_MODEL_MULTIPLIERS: Record<string, number> = {
   'Claude Haiku 4.5': 0.33,
   'Claude Opus 4.5': 3,
   'Claude Opus 4.6': 3,
+  'Claude Opus 4.6 (fast mode) (preview)': 30,
+  'Claude Opus 4.7': 7.5,
   'Claude Sonnet 4': 1,
   'Claude Sonnet 4.5': 1,
   'Claude Sonnet 4.6': 1,
@@ -26,7 +28,9 @@ export const CURRENT_MODEL_MULTIPLIERS: Record<string, number> = {
   'GPT-5.4': 1,
   'GPT-5.4 mini': 0.33,
   'GPT-5.4 nano': 0.25,
-  'GPT-5.5': 7.5
+  'GPT-5.5': 7.5,
+  'Grok Code Fast 1': 0.25,
+  'Raptor mini': 0,
 };
 
 // Models with a 0x multiplier (free) are treated as "Default" and grouped together.
